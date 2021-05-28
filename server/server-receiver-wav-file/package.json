@@ -1,0 +1,13 @@
+{
+  "name": "server-receiver-wav-file",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^4.5.1",
+    "file-system": "^2.2.2"
+  }
+}
