@@ -98,7 +98,7 @@ void uploadFile(){
   Serial.println("===> Upload FILE to Node.js Server");
 
   HTTPClient client;
-  client.begin("http://172.20.30.181:8888/uploadAudio");
+  client.begin("http://172.20.30.250:8888/uploadAudio");
   client.addHeader("Content-Type", "audio/wav");
   int httpResponseCode = client.sendRequest("POST", &file, file.size());
   Serial.print("httpResponseCode : ");
